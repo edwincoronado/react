@@ -1,6 +1,6 @@
 const app = {
     title: 'Indecision App',
-    subtitle: 'This is some info',
+    subtitle: 'Put your life in the hands of a computer.',
     options: []
 };
 
