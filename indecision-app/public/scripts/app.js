@@ -240,7 +240,7 @@ var AddOption = function (_React$Component6) {
                     React.createElement('input', { type: 'text', name: 'option' }),
                     React.createElement(
                         'button',
-                        null,
+                        { id: 'addOptionButton' },
                         'Add Option'
                     )
                 )
