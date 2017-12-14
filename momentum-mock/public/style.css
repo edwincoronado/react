@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+html {
+	height: 100%;
+	background: linear-gradient(45deg, rgba(255,175,189,.7), rgba(100,216,243,.7), rgba(234,236,198,.7), rgba(245,146,176,.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, url(https://www.nxworld.net/example/background/bg01.jpg) 0 0 / cover no-repeat;
+	-webkit-animation: gradientAnimation 40s ease infinite;
+	animation: gradientAnimation 40s ease infinite;
+}
+@-webkit-keyframes gradientAnimation {
+	0%   { background-position: 0% 30%, 0 0;}
+	50%  { background-position: 100% 70%, 0 0;}
+	100% { background-position: 0% 30%, 0 0;}
+}
+@keyframes gradientAnimation {
+	0%   { background-position: 0% 30%, 0 0;}
+	50%  { background-position: 100% 70%, 0 0;}
+	100% { background-position: 0% 30%, 0 0;}
+}
+
+#myTime {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+#myTime > h1 {
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bolder;
+    color: white;
+    font-size: 60pt;
+    /*text-shadow: 2px 2px #208b49c7;*/
+}
+
+#myTime > h2 {
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto";
+    color: white;
+    font-size: 40pt;
+    /*text-shadow: 2px 2px #208b49c7;*/
+}
+
+@media screen and (max-width: 900px) {
+    #myTime > h1 {
+        font-size: 55pt;    
+    }
+    #myTime > h1 {
+        font-size: 45pt;    
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #myTime > h1 {
+        font-size: 40pt;    
+    }
+    #myTime > h2 {
+        font-size: 35pt;    
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #myTime > h1 {
+        font-size: 25pt;    
+    }
+    #myTime > h2 {
+        font-size: 20pt;    
+    }
+}
+
+
