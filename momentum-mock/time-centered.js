@@ -1,7 +1,8 @@
+import { Button } from 'https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/<version>/react-bootstrap.min.js';
+
 class TimeC extends React.Component {
     constructor(props) {
         super(props);
-        //this.refreshTime = this.refreshTime.bind(this);
         this.componentDidMount = this.refreshEverySecond.bind(this);
         this.state = {
             time: undefined,
