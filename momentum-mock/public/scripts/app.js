@@ -1,8 +1,6 @@
-'use strict';
+"use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _reactBootstrapMin = require('https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/<version>/react-bootstrap.min.js');
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -26,7 +24,7 @@ var TimeC = function (_React$Component) {
     }
 
     _createClass(TimeC, [{
-        key: 'refreshEverySecond',
+        key: "refreshEverySecond",
         value: function refreshEverySecond() {
             var _this2 = this;
 
@@ -37,18 +35,18 @@ var TimeC = function (_React$Component) {
             }, 1000);
         }
     }, {
-        key: 'render',
+        key: "render",
         value: function render() {
             return React.createElement(
-                'div',
-                { id: 'myTime' },
+                "div",
+                { id: "myTime" },
                 React.createElement(
-                    'h2',
+                    "h2",
                     null,
-                    'Hello Edwin'
+                    "Hello Edwin"
                 ),
                 React.createElement(
-                    'h1',
+                    "h1",
                     null,
                     this.state.time
                 )
