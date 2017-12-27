@@ -17,7 +17,8 @@
 // Widget Header
 .widget-header {
     background: $blue;
-    border-radius: $border-radius;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
     color: $off-white;
     display: flex;
     justify-content: space-between;
